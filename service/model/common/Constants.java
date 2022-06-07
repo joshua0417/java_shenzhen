@@ -1,0 +1,32 @@
+package com.cet.pq.pqgovernanceservice.model.common;
+
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * @author ：gongtong
+ * @ClassName ：Constants
+ * @date ：Created in 2022/4/29 17:17
+ * @description： 常量
+ */
+public class Constants {
+    // 加载配置文件路径， 开发环境配置classpath:, 生产环境配置file:
+    public static final String LOAD_CONFIG_FILE_PATH = "file:";
+    //电压偏差
+    public static final List<Long> VOLTAGE_DEVIATION = Arrays.asList(100L, 101L, 102L);
+    //三相不平衡
+    public static final List<Long> THREE_PHASE_IMBALANCE = Arrays.asList(69L);
+    //谐波电流
+    public static final List<Long> HARMONIC_CURRENT = Arrays.asList(1040002L,1040003L,1040004L,1040005L,1040006L,1040007L,1040008L,1040009L,
+            1040010L,1040011L,1040012L,1040013L,1040014L,1040015L,1040016L,1040017L,1040018L,1040019L,1040020L,1040021L,1040022L,1040023L,
+            1040024L,1040025L,1040026L,1040027L,1040028L,1040029L,1040030L,1040031L,1040032L,1040033L,1040034L,1040035L,1040036L,1040037L,
+            1040038L,1040039L,1040040L,1040041L,1040042L,1040043L,1040044L,1040045L,1040046L,1040047L,1040048L,1040049L,1040050L);
+    //谐波电压
+    public static final List<Long> HARMONIC_VOLTAGE = Arrays.asList(10002L,10003L,10004L,10005L,10006L,10007L,10008L,10009L,10010L,10011L,10012L,
+            10013L,10014L,10015L,10016L,10017L,10018L,10019L,10020L,10021L,10022L,10023L,10024L,10025L,10026L,10027L,10028L,10029L,10030L,10031L,
+            10032L,10033L,10034L,10035L,10036L,10037L,10038L,10039L,10040L,10041L,10042L,10043L,10044L,10045L,10046L,10047L,10048L,10049L,10050L);
+    //频率偏差
+    public static final List<Long> FREQUENCY_DEVIATION = Arrays.asList(97L);
+    //Ia基波有效值
+    public static final List<Long> IA_CURRENT = Arrays.asList(1000010L);
+}

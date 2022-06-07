@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with JArchitect v2022.1.0</Info>
+  <Info>No baseline for comparison defined.</Info>
+  <Info>Codebase parsing</Info>
+  <Info>Third Party parsing</Info>
+  <Warning>Some external used jars are not found, the external classes are added to the project named 'Externals'.
+You can specify the external jars paths from Project Properties panel =&gt; Code To Analyze tab</Warning>
+  <Info>Parsing source files using PMD.</Info>
+  <Info>No dependency cycle detected in projects referencement graph.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Warning>2 quality gates fail.
+  - 'Critical Rules Violated' value 1 rules greater than fail threshold 0 rules
+  - 'Debt Rating per Package' value 2 packages greater than fail threshold 0 packages</Warning>
+  <Info>JArchitect analysis done. Duration: 00:05</Info>
+</InfoWarnings>
